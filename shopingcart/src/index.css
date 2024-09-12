@@ -1,0 +1,156 @@
+body{
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+#login{
+
+  height:100vh;
+  align-items: center;
+  display: flex;
+ 
+}
+#login h2{
+  text-align: center;
+}
+#login a{
+  display: flex;
+  justify-content: center;
+}
+#signup{
+  height:100vh;
+  display: flex;
+  align-items: center;
+}
+#signup h2{
+  text-align: center;
+}
+#header{
+  background: rgb(245, 245, 245, 0.5);
+  padding: 6px 0px;
+  position: sticky;
+ 
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .08);
+  top:0;
+  z-index: +2;
+
+
+}
+#header li{
+  font-size: large;
+  font-weight: bolder;
+}
+#header li a:hover{
+  color:brown;
+}
+
+
+#header li{
+  padding:8px 0px;
+}
+#header img{
+  width:60px
+}
+#header a,.btn{
+  text-wrap: nowrap;
+}
+#header i{
+  font-size: 30px;
+  
+  color:red
+  
+  }
+#header i:hover{ 
+    color:green 
+    }
+#header .badge{
+    font-size: 10px;
+  }
+#header .translate-middle{
+    transform: translate(-20%, -120%) !important;
+  }
+#header .btn-outline{
+  border:1px solid rgb(226, 200, 200);
+  color:rgb(95, 184, 99); 
+}
+#header .navbar{
+  padding: 0px;
+}
+#mid h2{
+text-align: center;
+}
+#products{
+  position: absolute;
+ top:0;
+  
+  
+}
+#product{
+  padding: 20px 0px;
+  
+}
+#product .row{
+  --bs-gutter-y: 1rem;
+}
+#product .card{
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .08);
+  border-radius: 10px;
+}
+#product .card-img{
+height:200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#product .card-title-box{
+  height:40px;
+  overflow-y: hidden;
+}
+#product .card-body-desc{
+  height:100px;
+  overflow-y: scroll;
+  scrollbar-width:none;
+}
+#moredetail{
+  padding: 16px 0px;
+}
+#moredetail .img-box{
+  margin: 12px;
+  
+  float: left;
+  align-items: center;
+}
+#moredetail img{
+  width: 300px; 
+}
+#moredetail .img-change-box{
+  display: flex;
+  justify-content: center;
+}
+
+#moredetail p{
+  text-align: justify;
+}
+#footer{
+  background: black;
+  padding: 20px 0px 0px 0px;
+  color: white;
+}
+#footer ul{
+  padding-inline-start: 5px;
+}
+#footer ul li{
+  list-style-type: none;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+  
+}
+#footer p{
+  text-align: justify;
+}
+#footer i{
+  margin-right: 10px;
+}
