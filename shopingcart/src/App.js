@@ -16,8 +16,7 @@ import Updateproduct from './Updateproduct';
 import Cart from './Cart';
 import Myorders from './Myorders';
 import Moredetail from './Moredetail';
-import Test from './Test';
-import Test2 from './Test2';
+
 import Overloading from './Overloading'
 
 
@@ -52,8 +51,7 @@ function App() {
     <Route path='/carts' element={<Cart/>}></Route>
     <Route path='/myorders' element={<Myorders/>}></Route>
 
-    <Route path='/test' element={<Test/>}></Route>
-    <Route path='/next' element={<Test2/>}></Route>
+    
     <Route path='/classcomponent' element={<Overloading/>}></Route>
 
 
